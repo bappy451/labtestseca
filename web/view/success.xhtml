@@ -10,6 +10,10 @@
     <br/>
     <h:outputText value="#{studentController.student.studentName}"></h:outputText>
 
+    <f:view>
+        <h1><h:outputLabel value="Student List"/></h1>
+    </f:view>
+
     <table>
         <ui:repeat value="#{studentController.studentlist}" var="list">
             <tr>
